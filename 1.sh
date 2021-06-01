@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "yes it works"
 
 mkdir /root/dj1
@@ -7,6 +8,6 @@ cd /root/dj1
 
 echo "we are in /root/dj1"
 
-touch file1
+touch file{1..10}
 
-echo "file1 created"
+echo "10 files created"
